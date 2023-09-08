@@ -1,0 +1,30 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+#canvas {
+    height: 680px;
+    width: 1280px;
+    padding: 0px;
+    position: static;
+}
+
+#info {
+    position: absolute;
+    padding-top: 10px;
+    width: 100%;
+    font-family: sans-serif;
+    padding-left: 10px;
+    box-sizing: border-box;
+    z-index: 1;
+
+}
+
+.description {
+    font-family: monospace;
+    margin-right: 115px;
+
+    font-size: 15px;
+    color: rgb(75, 158, 247);
+}
